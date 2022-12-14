@@ -25,8 +25,8 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from mpro64 import Masuk
+    from impro64 import Masuk
     Masuk()
 elif bit == '32bit':
-    from mpro32 import Masuk
+    from impro32 import Masuk
     Masuk()
